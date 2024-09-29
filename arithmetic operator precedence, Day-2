@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+int x=34;
+int y=23;
+int sum = x+y;
+printf("%d\n",sum);
+int diff = x-y;
+printf("%d\n",diff);
+int product = x*y;
+printf("%d\n",product);
+int divi = x/y;
+printf("%d\n",divi);
+int modulus = x%y;
+printf("%d\n",modulus);
+    return 0;
+}
