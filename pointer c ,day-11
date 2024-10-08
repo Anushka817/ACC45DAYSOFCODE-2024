@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+int*pc, c;
+c=22;
+printf("adress of c: %p\n",&c );
+printf("value of c : %d\n\n",c);//22
+pc=&c;
+printf("adress of pointer pc: %p\n",pc );
+printf("content of pointer pc : %d\n\n",*pc);//22
+c=11;
+printf("adress of pointer pc: %p\n",pc );
+printf("content of pointer pc : %d\n\n",*pc);//11
+*pc=2;
+printf("adress of c: %p\n",&c );
+printf("value of c : %d\n\n",c);//2
+    return 0;
+}
